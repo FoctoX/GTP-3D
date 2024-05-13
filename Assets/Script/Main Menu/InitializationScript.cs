@@ -8,6 +8,8 @@ public class InitializationScript : MonoBehaviour
 
     private void Start()
     {
+        LevelWinScript.levelProgress = PlayerPrefs.GetInt("LevelProgressPP");
+
         if (!PlayerPrefs.HasKey("graphicsStatePP"))
         {
             PlayerPrefs.SetFloat("graphicsStatePP", 1);
