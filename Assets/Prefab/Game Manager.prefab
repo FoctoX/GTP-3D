@@ -2777,7 +2777,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: -209.33997}
+  m_AnchoredPosition: {x: -209.19, y: -209.33997}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &2115571917151715572
@@ -9623,7 +9623,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 1.5
   m_Direction: 1
-  m_Center: {x: 0, y: 0.75, z: 0}
+  m_Center: {x: 0, y: 0.7, z: 0}
 --- !u!143 &8452438823496612996
 CharacterController:
   m_ObjectHideFlags: 0
@@ -9649,7 +9649,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0.75, z: 0}
+  m_Center: {x: 0, y: 0.7, z: 0}
 --- !u!114 &583313653621493079
 MonoBehaviour:
   m_ObjectHideFlags: 0
