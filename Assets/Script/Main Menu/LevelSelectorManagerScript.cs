@@ -44,9 +44,10 @@ public class LevelSelectorManagerScript : MonoBehaviour
             {
                 transformsStar[j].sprite = starsSprite[1];
             }
-            if (i > highestLevel - 1)
+            if (i + 1 > highestLevel)
             {
                 levels[i] = buttonLevel[i].gameObject;
+                levels[i].GetComponent<Button>().enabled = false;
                 GameObject number = levels[i].transform.Find("Logo").transform.Find("Number").gameObject;
                 GameObject lockLevel = levels[i].transform.Find("Logo").transform.Find("Lock").gameObject;
                 GameObject starsLevel = levels[i].transform.Find("Stars").gameObject;
