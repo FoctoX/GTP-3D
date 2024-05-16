@@ -14,6 +14,8 @@ public class LevelSelectorManagerScript : MonoBehaviour
 
     private void Awake()
     {
+        Button[] buttonLevel = GetComponentsInChildren<Button>();
+        PlayerPrefs.SetInt("LevelTotal", buttonLevel.Length);
         JSONFormatter.Initialization();
     }
 
@@ -37,6 +39,7 @@ public class LevelSelectorManagerScript : MonoBehaviour
             levels[i] = buttonLevel[i].gameObject;
             int levelIndex = i;
             buttonLevel[i].onClick.AddListener(() => LevelButtonOnClick(levelIndex));
+            buttonLevel[i].onClick.AddListener(() => GetCurrentLevelPlayed(levelIndex));
             TextMeshProUGUI levelNumber = levels[i].transform.Find("Logo").transform.Find("Number").GetComponent<TextMeshProUGUI>();
             levelNumber.text = (i + 1).ToString();
             Image[] transformsStar = levels[i].transform.Find("Stars").GetComponentsInChildren<Image>();
@@ -65,5 +68,9 @@ public class LevelSelectorManagerScript : MonoBehaviour
         SceneManager.LoadScene(SceneManagerScript.levelTransition);
     }
 
-
+    private void GetCurrentLevelPlayed(int levelNumber)
+    {
+        LevelManagerScript.currentPlayedLevel = levelNumber + 1;
+        Debug.Log("Current Level Now: " + LevelManagerScript.currentPlayedLevel);
+    }
 }

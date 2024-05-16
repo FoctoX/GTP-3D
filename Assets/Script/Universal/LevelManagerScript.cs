@@ -7,13 +7,13 @@ public class LevelManagerScript : MonoBehaviour
     private int previousStar;
     [HideInInspector] public int levelStars;
     [SerializeField] private Sprite[] starSprite; 
-    public int currentPlayedLevel;
-    private GameObject[] stars;
+    public static int currentPlayedLevel;
+    private Image[] stars;
 
     private void Awake()
     {
-        stars = transform.Find("Stars").GetComponentsInChildren<GameObject>();
-        GameData gameData = JsonUtility.FromJson<GameData>(File.ReadAllText(Application.persistentDataPath + "/saved/PlayerProgress.json"));
+        stars = transform.Find("Canvas").transform.Find("Stars").GetComponentsInChildren<Image>();
+        GameData gameData = JsonUtility.FromJson<GameData>(File.ReadAllText(Application.persistentDataPath + "/Player.json"));
         previousStar = gameData.levelStars[currentPlayedLevel];
     }
 
@@ -22,7 +22,7 @@ public class LevelManagerScript : MonoBehaviour
         levelStars++;
         for (int i = 0; i < levelStars; i++) 
         {
-            Image starImage = stars[i].GetComponent<Image>();
+            Image starImage = stars[i];
             starImage.sprite = starSprite[1];
         }
     }

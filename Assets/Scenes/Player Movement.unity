@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -878,7 +878,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1517658493
 Light:
   m_ObjectHideFlags: 0
@@ -1213,6 +1213,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4846287388400639987, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5585897004824333884, guid: 331d448cec14dcd4890842d095ef724b,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1343,6 +1348,26 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7451911555000793458, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7451911555000793458, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7451911555000793458, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7451911555000793458, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7780683721853417234, guid: 331d448cec14dcd4890842d095ef724b,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1363,6 +1388,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8132533467257982984, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132533467257982984, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132533467257982984, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132533467257982984, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8269159136812854940, guid: 331d448cec14dcd4890842d095ef724b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1372,6 +1417,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Game Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8280172924188071592, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_UIInputModule
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506061872541477928, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506061872541477928, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506061872541477928, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506061872541477928, guid: 331d448cec14dcd4890842d095ef724b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8859449912527462059, guid: 331d448cec14dcd4890842d095ef724b,
         type: 3}

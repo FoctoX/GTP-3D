@@ -8,7 +8,6 @@ public class InitializationScript : MonoBehaviour
 
     private void Start()
     {
-        JSONFormatter.Initialization();
         SceneManagerScript.levelProgress = PlayerPrefs.GetInt("LevelProgressPP");
 
         if (!PlayerPrefs.HasKey("graphicsStatePP"))

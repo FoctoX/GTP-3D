@@ -8,6 +8,7 @@ TagManager:
   - Enemy Weaponary
   - Enemy
   - Virtual Camera
+  - Game Manager
   layers:
   - Default
   - TransparentFX

@@ -8,7 +8,7 @@ public static class JSONFormatter
         if (!File.Exists(Application.persistentDataPath + "/Player.json"))
         {
             GameData gameData = new GameData();
-            gameData.levelStars = new int[5];
+            gameData.levelStars = new int[PlayerPrefs.GetInt("LevelTotal")];
             gameData.highestLevel = 1;
             string json = JsonUtility.ToJson(gameData);
             File.WriteAllText(Application.persistentDataPath + "/Player.json", json);

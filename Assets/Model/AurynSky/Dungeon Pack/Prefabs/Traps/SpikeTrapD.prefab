@@ -1,5 +1,277 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1008216086136584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4860764220213462}
+  - component: {fileID: 33253939306409260}
+  - component: {fileID: 23837492293159518}
+  m_Layer: 0
+  m_Name: SpearD (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4860764220213462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008216086136584}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: 0.6750011, y: -2.101, z: -0.6699982}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4753028538822310}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+--- !u!33 &33253939306409260
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008216086136584}
+  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
+--- !u!23 &23837492293159518
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008216086136584}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1311725443889936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4616488554291980}
+  - component: {fileID: 33605891467109624}
+  - component: {fileID: 23771608123197894}
+  m_Layer: 0
+  m_Name: SpearD (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4616488554291980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311725443889936}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: -0.0009994507, y: -2.101, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4753028538822310}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+--- !u!33 &33605891467109624
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311725443889936}
+  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
+--- !u!23 &23771608123197894
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311725443889936}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1338808813722488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4008263434231290}
+  - component: {fileID: 33767459938869006}
+  - component: {fileID: 23024739037874072}
+  - component: {fileID: 1359997933667356020}
+  m_Layer: 0
+  m_Name: SpearD (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4008263434231290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338808813722488}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: -0.001, y: -2.101, z: 0.6660004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4753028538822310}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+--- !u!33 &33767459938869006
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338808813722488}
+  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
+--- !u!23 &23024739037874072
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338808813722488}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1359997933667356020
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338808813722488}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
 --- !u!1 &1498791207746926
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,6 +285,7 @@ GameObject:
   - component: {fileID: 23248802485315498}
   - component: {fileID: 95846521961778924}
   - component: {fileID: 114953712324284294}
+  - component: {fileID: 2773683837580430814}
   m_Layer: 0
   m_Name: SpikeTrapD
   m_TagString: Untagged
@@ -34,14 +307,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4036345505925138}
-  - {fileID: 512022758565274727}
-  - {fileID: 4654770112318980087}
-  - {fileID: 7565611924209109985}
-  - {fileID: 4525614190615287366}
-  - {fileID: 3455818827147629519}
-  - {fileID: 8923338442918843148}
-  - {fileID: 8162194826736302254}
-  - {fileID: 6103203382595797485}
+  - {fileID: 4008263434231290}
+  - {fileID: 4809595351350106}
+  - {fileID: 4363820140832408}
+  - {fileID: 4616488554291980}
+  - {fileID: 4046807222424656}
+  - {fileID: 4860764220213462}
+  - {fileID: 4803314916592114}
+  - {fileID: 4875821021075144}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33776582947446772
@@ -128,6 +401,653 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spikeTrapAnim: {fileID: 0}
+--- !u!114 &2773683837580430814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498791207746926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: FSM
+    startState: State 1
+    states:
+    - name: State 1
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 50
+        y: 100
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: Death
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: State 2
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.TriggerEvent
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 9c512400
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Player
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - Death
+        byteData: 00000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000007000000120000001700000013000000
+        paramName:
+        - gameObject
+        - trigger
+        - collideTag
+        - sendEvent
+        - storeCollider
+        paramDataPos: 0000000000000000000000000000000000000000
+        paramByteDataSize: 0000000004000000000000000000000000000000
+    - name: State 2
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 206
+        y: 89
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.RestartLevel
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 00000000
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    events:
+    - name: Death
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 
+    description: 
+    docUrl: 
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices: 
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0
+--- !u!1 &1533954398984724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4046807222424656}
+  - component: {fileID: 33369888237370770}
+  - component: {fileID: 23739020642098042}
+  m_Layer: 0
+  m_Name: SpearD (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4046807222424656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533954398984724}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: -0.6959991, y: -2.101, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4753028538822310}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+--- !u!33 &33369888237370770
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533954398984724}
+  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
+--- !u!23 &23739020642098042
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533954398984724}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1650723854434010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4363820140832408}
+  - component: {fileID: 33578627958305448}
+  - component: {fileID: 23279996916830800}
+  m_Layer: 0
+  m_Name: SpearD (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4363820140832408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650723854434010}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: 0.6750011, y: -2.101, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4753028538822310}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+--- !u!33 &33578627958305448
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650723854434010}
+  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
+--- !u!23 &23279996916830800
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650723854434010}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1729526444844092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4875821021075144}
+  - component: {fileID: 33628232929064336}
+  - component: {fileID: 23829621543932378}
+  m_Layer: 0
+  m_Name: SpearD (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4875821021075144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729526444844092}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: -0.6959991, y: -2.101, z: -0.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4753028538822310}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+--- !u!33 &33628232929064336
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729526444844092}
+  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
+--- !u!23 &23829621543932378
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729526444844092}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1826391478264026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4809595351350106}
+  - component: {fileID: 33763283131463934}
+  - component: {fileID: 23774227400217108}
+  m_Layer: 0
+  m_Name: SpearD (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4809595351350106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826391478264026}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: -0.696, y: -2.101, z: 0.6660004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4753028538822310}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+--- !u!33 &33763283131463934
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826391478264026}
+  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
+--- !u!23 &23774227400217108
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826391478264026}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1833567552968946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4803314916592114}
+  - component: {fileID: 33715872849311494}
+  - component: {fileID: 23008813928714042}
+  m_Layer: 0
+  m_Name: SpearD (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4803314916592114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833567552968946}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: -0.0009994507, y: -2.101, z: -0.6699982}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4753028538822310}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+--- !u!33 &33715872849311494
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833567552968946}
+  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
+--- !u!23 &23008813928714042
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833567552968946}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1915419554402406
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,8 +1059,7 @@ GameObject:
   - component: {fileID: 4036345505925138}
   - component: {fileID: 33391704044155462}
   - component: {fileID: 23124783542801482}
-  - component: {fileID: 3103636176419760706}
-  - component: {fileID: 4040339332826662070}
+  - component: {fileID: 7158306782258578349}
   m_Layer: 0
   m_Name: SpearD
   m_TagString: Untagged
@@ -213,29 +1132,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3103636176419760706
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915419554402406}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!114 &4040339332826662070
+--- !u!114 &7158306782258578349
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -250,15 +1147,15 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Trap
-    startState: Wait
+    name: FSM
+    startState: State 1
     states:
-    - name: Wait
+    - name: State 1
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 52
+        x: 50
         y: 100
         width: 100
         height: 32
@@ -270,7 +1167,7 @@ MonoBehaviour:
           name: Lost HP
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Death (For Now)
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -342,86 +1239,43 @@ MonoBehaviour:
         - storeCollider
         paramDataPos: 0000000000000000000000000000000000000000
         paramByteDataSize: 0000000004000000000000000000000000000000
-    - name: State 1
+    - name: Death (For Now)
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 241
-        y: 99
-        width: 100
-        height: 32
+        x: 198
+        y: 103
+        width: 126
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Wait
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.FloatSubtract
-        - HutongGames.PlayMaker.Actions.TriggerEvent
+        - HutongGames.PlayMaker.Actions.RestartLevel
         customNames:
         - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 2a6e8a009c512400
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 00000000
         unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 100
-        - useVariable: 1
-          name: Damage
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmFloatParams: []
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -429,42 +1283,23 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - FINISHED
-        byteData: 000002000000
+        stringParams: []
+        byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f00000001000000010000001400000007000000120000001700000013000000
-        paramName:
-        - floatVariable
-        - subtract
-        - everyFrame
-        - perSecond
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 000000000100000000000000010000000000000002000000000000000000000000000000
-        paramByteDataSize: 000000000000000001000000010000000000000004000000000000000000000000000000
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
     events:
     - name: Lost HP
       isSystemEvent: 0
       isGlobal: 0
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
     globalTransitions: []
     variables:
-      floatVariables:
-      - useVariable: 1
-        name: Damage
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 5
+      floatVariables: []
       intVariables: []
       boolVariables: []
       stringVariables: []
@@ -481,7 +1316,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000
+      variableCategoryIDs: 
     description: 
     docUrl: 
     showStateLabel: 0
@@ -509,3216 +1344,8 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 1
-    handleTriggerExit: 1
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!1 &1926627285999143427
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4654770112318980087}
-  - component: {fileID: 3686963742468059209}
-  - component: {fileID: 4691271562896064114}
-  - component: {fileID: 7911729121563505087}
-  - component: {fileID: 6709432794815543403}
-  m_Layer: 0
-  m_Name: SpearD (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4654770112318980087
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926627285999143427}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: -0.68, y: -2.101, z: 0.6660004}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4753028538822310}
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
---- !u!33 &3686963742468059209
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926627285999143427}
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!23 &4691271562896064114
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926627285999143427}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7911729121563505087
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926627285999143427}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!114 &6709432794815543403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926627285999143427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: Trap
-    startState: Wait
-    states:
-    - name: Wait
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 52
-        y: 100
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Lost HP
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: State 1
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 9c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Lost HP
-        byteData: 00000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1400000007000000120000001700000013000000
-        paramName:
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000
-        paramByteDataSize: 0000000004000000000000000000000000000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 241
-        y: 99
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Wait
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.FloatSubtract
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 2a6e8a009c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 100
-        - useVariable: 1
-          name: Damage
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - FINISHED
-        byteData: 000002000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 0f0000000f00000001000000010000001400000007000000120000001700000013000000
-        paramName:
-        - floatVariable
-        - subtract
-        - everyFrame
-        - perSecond
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 000000000100000000000000010000000000000002000000000000000000000000000000
-        paramByteDataSize: 000000000000000001000000010000000000000004000000000000000000000000000000
-    events:
-    - name: Lost HP
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    globalTransitions: []
-    variables:
-      floatVariables:
-      - useVariable: 1
-        name: Damage
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 5
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 00000000
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 1
-    handleTriggerExit: 1
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!1 &1970329716647830732
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8162194826736302254}
-  - component: {fileID: 8684351022857309734}
-  - component: {fileID: 47691845341611848}
-  - component: {fileID: 6631947431585892436}
-  - component: {fileID: 7432250068578573540}
-  m_Layer: 0
-  m_Name: SpearD (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8162194826736302254
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970329716647830732}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 0.05000013, y: -2.101, z: -0.91}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4753028538822310}
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
---- !u!33 &8684351022857309734
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970329716647830732}
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!23 &47691845341611848
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970329716647830732}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6631947431585892436
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970329716647830732}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!114 &7432250068578573540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970329716647830732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: Trap
-    startState: Wait
-    states:
-    - name: Wait
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 52
-        y: 100
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Lost HP
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: State 1
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 9c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Lost HP
-        byteData: 00000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1400000007000000120000001700000013000000
-        paramName:
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000
-        paramByteDataSize: 0000000004000000000000000000000000000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 241
-        y: 99
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Wait
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.FloatSubtract
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 2a6e8a009c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 100
-        - useVariable: 1
-          name: Damage
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - FINISHED
-        byteData: 000002000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 0f0000000f00000001000000010000001400000007000000120000001700000013000000
-        paramName:
-        - floatVariable
-        - subtract
-        - everyFrame
-        - perSecond
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 000000000100000000000000010000000000000002000000000000000000000000000000
-        paramByteDataSize: 000000000000000001000000010000000000000004000000000000000000000000000000
-    events:
-    - name: Lost HP
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    globalTransitions: []
-    variables:
-      floatVariables:
-      - useVariable: 1
-        name: Damage
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 5
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 00000000
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 1
-    handleTriggerExit: 1
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!1 &2513260452375664229
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4525614190615287366}
-  - component: {fileID: 5438913425398628677}
-  - component: {fileID: 6002554810215993989}
-  - component: {fileID: 1976431446976265452}
-  - component: {fileID: 6216315376256368913}
-  m_Layer: 0
-  m_Name: SpearD (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4525614190615287366
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2513260452375664229}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 0.05000013, y: -2.101, z: -0.05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4753028538822310}
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
---- !u!33 &5438913425398628677
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2513260452375664229}
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!23 &6002554810215993989
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2513260452375664229}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1976431446976265452
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2513260452375664229}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!114 &6216315376256368913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2513260452375664229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: Trap
-    startState: Wait
-    states:
-    - name: Wait
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 52
-        y: 100
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Lost HP
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: State 1
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 9c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Lost HP
-        byteData: 00000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1400000007000000120000001700000013000000
-        paramName:
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000
-        paramByteDataSize: 0000000004000000000000000000000000000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 241
-        y: 99
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Wait
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.FloatSubtract
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 2a6e8a009c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 100
-        - useVariable: 1
-          name: Damage
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - FINISHED
-        byteData: 000002000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 0f0000000f00000001000000010000001400000007000000120000001700000013000000
-        paramName:
-        - floatVariable
-        - subtract
-        - everyFrame
-        - perSecond
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 000000000100000000000000010000000000000002000000000000000000000000000000
-        paramByteDataSize: 000000000000000001000000010000000000000004000000000000000000000000000000
-    events:
-    - name: Lost HP
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    globalTransitions: []
-    variables:
-      floatVariables:
-      - useVariable: 1
-        name: Damage
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 5
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 00000000
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 1
-    handleTriggerExit: 1
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!1 &2795203840441776250
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7565611924209109985}
-  - component: {fileID: 49821680356539849}
-  - component: {fileID: 8951215554382346746}
-  - component: {fileID: 780499609440169252}
-  - component: {fileID: 4924160456575940161}
-  m_Layer: 0
-  m_Name: SpearD (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7565611924209109985
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2795203840441776250}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 0.6750011, y: -2.101, z: -0.05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4753028538822310}
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
---- !u!33 &49821680356539849
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2795203840441776250}
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!23 &8951215554382346746
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2795203840441776250}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &780499609440169252
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2795203840441776250}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!114 &4924160456575940161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2795203840441776250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: Trap
-    startState: Wait
-    states:
-    - name: Wait
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 52
-        y: 100
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Lost HP
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: State 1
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 9c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Lost HP
-        byteData: 00000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1400000007000000120000001700000013000000
-        paramName:
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000
-        paramByteDataSize: 0000000004000000000000000000000000000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 241
-        y: 99
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Wait
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.FloatSubtract
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 2a6e8a009c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 100
-        - useVariable: 1
-          name: Damage
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - FINISHED
-        byteData: 000002000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 0f0000000f00000001000000010000001400000007000000120000001700000013000000
-        paramName:
-        - floatVariable
-        - subtract
-        - everyFrame
-        - perSecond
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 000000000100000000000000010000000000000002000000000000000000000000000000
-        paramByteDataSize: 000000000000000001000000010000000000000004000000000000000000000000000000
-    events:
-    - name: Lost HP
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    globalTransitions: []
-    variables:
-      floatVariables:
-      - useVariable: 1
-        name: Damage
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 5
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 00000000
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 1
-    handleTriggerExit: 1
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!1 &4871624398623109399
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3455818827147629519}
-  - component: {fileID: 8672363333039438933}
-  - component: {fileID: 6287399888081405550}
-  - component: {fileID: 8284670305352193825}
-  - component: {fileID: 8828499412702578552}
-  m_Layer: 0
-  m_Name: SpearD (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3455818827147629519
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4871624398623109399}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: -0.68000036, y: -2.101, z: -0.05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4753028538822310}
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
---- !u!33 &8672363333039438933
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4871624398623109399}
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!23 &6287399888081405550
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4871624398623109399}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8284670305352193825
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4871624398623109399}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!114 &8828499412702578552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4871624398623109399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: Trap
-    startState: Wait
-    states:
-    - name: Wait
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 52
-        y: 100
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Lost HP
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: State 1
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 9c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Lost HP
-        byteData: 00000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1400000007000000120000001700000013000000
-        paramName:
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000
-        paramByteDataSize: 0000000004000000000000000000000000000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 241
-        y: 99
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Wait
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.FloatSubtract
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 2a6e8a009c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 100
-        - useVariable: 1
-          name: Damage
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - FINISHED
-        byteData: 000002000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 0f0000000f00000001000000010000001400000007000000120000001700000013000000
-        paramName:
-        - floatVariable
-        - subtract
-        - everyFrame
-        - perSecond
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 000000000100000000000000010000000000000002000000000000000000000000000000
-        paramByteDataSize: 000000000000000001000000010000000000000004000000000000000000000000000000
-    events:
-    - name: Lost HP
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    globalTransitions: []
-    variables:
-      floatVariables:
-      - useVariable: 1
-        name: Damage
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 5
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 00000000
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 1
-    handleTriggerExit: 1
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!1 &5104901642626905474
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 512022758565274727}
-  - component: {fileID: 8496477232792051612}
-  - component: {fileID: 4109787862793141459}
-  - component: {fileID: 7369872061008857020}
-  - component: {fileID: 7081559445502259700}
-  m_Layer: 0
-  m_Name: SpearD (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &512022758565274727
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5104901642626905474}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 0.05, y: -2.101, z: 0.6660004}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4753028538822310}
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
---- !u!33 &8496477232792051612
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5104901642626905474}
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!23 &4109787862793141459
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5104901642626905474}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7369872061008857020
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5104901642626905474}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!114 &7081559445502259700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5104901642626905474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: Trap
-    startState: Wait
-    states:
-    - name: Wait
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 52
-        y: 100
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Lost HP
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: State 1
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 9c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Lost HP
-        byteData: 00000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1400000007000000120000001700000013000000
-        paramName:
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000
-        paramByteDataSize: 0000000004000000000000000000000000000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 241
-        y: 99
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Wait
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.FloatSubtract
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 2a6e8a009c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 100
-        - useVariable: 1
-          name: Damage
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - FINISHED
-        byteData: 000002000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 0f0000000f00000001000000010000001400000007000000120000001700000013000000
-        paramName:
-        - floatVariable
-        - subtract
-        - everyFrame
-        - perSecond
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 000000000100000000000000010000000000000002000000000000000000000000000000
-        paramByteDataSize: 000000000000000001000000010000000000000004000000000000000000000000000000
-    events:
-    - name: Lost HP
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    globalTransitions: []
-    variables:
-      floatVariables:
-      - useVariable: 1
-        name: Damage
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 5
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 00000000
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 1
-    handleTriggerExit: 1
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!1 &6100640846914541870
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6103203382595797485}
-  - component: {fileID: 8143139197741123539}
-  - component: {fileID: 496350035583979554}
-  - component: {fileID: 2571881034819511894}
-  - component: {fileID: 2384793166768543105}
-  m_Layer: 0
-  m_Name: SpearD (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6103203382595797485
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6100640846914541870}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: -0.68000036, y: -2.101, z: -0.91}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4753028538822310}
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
---- !u!33 &8143139197741123539
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6100640846914541870}
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!23 &496350035583979554
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6100640846914541870}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2571881034819511894
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6100640846914541870}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!114 &2384793166768543105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6100640846914541870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: Trap
-    startState: Wait
-    states:
-    - name: Wait
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 52
-        y: 100
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Lost HP
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: State 1
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 9c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Lost HP
-        byteData: 00000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1400000007000000120000001700000013000000
-        paramName:
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000
-        paramByteDataSize: 0000000004000000000000000000000000000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 241
-        y: 99
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Wait
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.FloatSubtract
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 2a6e8a009c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 100
-        - useVariable: 1
-          name: Damage
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - FINISHED
-        byteData: 000002000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 0f0000000f00000001000000010000001400000007000000120000001700000013000000
-        paramName:
-        - floatVariable
-        - subtract
-        - everyFrame
-        - perSecond
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 000000000100000000000000010000000000000002000000000000000000000000000000
-        paramByteDataSize: 000000000000000001000000010000000000000004000000000000000000000000000000
-    events:
-    - name: Lost HP
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    globalTransitions: []
-    variables:
-      floatVariables:
-      - useVariable: 1
-        name: Damage
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 5
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 00000000
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 1
-    handleTriggerExit: 1
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!1 &8890013359811537881
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8923338442918843148}
-  - component: {fileID: 3673290591570925105}
-  - component: {fileID: 597722054321139900}
-  - component: {fileID: 4688575044644360996}
-  - component: {fileID: 2458410344294399041}
-  m_Layer: 0
-  m_Name: SpearD (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8923338442918843148
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8890013359811537881}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 0.6750011, y: -2.101, z: -0.91}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4753028538822310}
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
---- !u!33 &3673290591570925105
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8890013359811537881}
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!23 &597722054321139900
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8890013359811537881}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: bef590b5f83718440bddad527c144253, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4688575044644360996
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8890013359811537881}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5395c56e03889384398da83042f0b46e, type: 3}
---- !u!114 &2458410344294399041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8890013359811537881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: Trap
-    startState: Wait
-    states:
-    - name: Wait
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 52
-        y: 100
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Lost HP
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: State 1
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 9c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Lost HP
-        byteData: 00000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1400000007000000120000001700000013000000
-        paramName:
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 0000000000000000000000000000000000000000
-        paramByteDataSize: 0000000004000000000000000000000000000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 241
-        y: 99
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Wait
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.FloatSubtract
-        - HutongGames.PlayMaker.Actions.TriggerEvent
-        customNames:
-        - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 2a6e8a009c512400
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Player
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: Health
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 100
-        - useVariable: 1
-          name: Damage
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - FINISHED
-        byteData: 000002000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 0f0000000f00000001000000010000001400000007000000120000001700000013000000
-        paramName:
-        - floatVariable
-        - subtract
-        - everyFrame
-        - perSecond
-        - gameObject
-        - trigger
-        - collideTag
-        - sendEvent
-        - storeCollider
-        paramDataPos: 000000000100000000000000010000000000000002000000000000000000000000000000
-        paramByteDataSize: 000000000000000001000000010000000000000004000000000000000000000000000000
-    events:
-    - name: Lost HP
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    globalTransitions: []
-    variables:
-      floatVariables:
-      - useVariable: 1
-        name: Damage
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 5
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 00000000
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 1
-    handleTriggerExit: 1
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
     handleCollisionExit: 0
