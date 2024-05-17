@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using UnityEngine.SceneManagement;
+using HutongGames.PlayMaker;
 
 public class LevelManagerScript : MonoBehaviour
 {
@@ -11,11 +12,20 @@ public class LevelManagerScript : MonoBehaviour
     public static int currentPlayedLevel;
     private Image[] stars;
 
+    [SerializeField] private Slider healthSlider;
+    [SerializeField] private Slider staminaSlider;
+
     private void Awake()
     {
         stars = transform.Find("Canvas").transform.Find("Stars").GetComponentsInChildren<Image>();
         GameData gameData = JsonUtility.FromJson<GameData>(File.ReadAllText(Application.persistentDataPath + "/Player.json"));
         previousStar = gameData.levelStars[currentPlayedLevel];
+    }
+
+    private void Update()
+    {
+        healthSlider.value = FsmVariables.GlobalVariables.GetFsmFloat("Health").Value / FsmVariables.GlobalVariables.GetFsmFloat("Max Health").Value;
+        staminaSlider.value = FsmVariables.GlobalVariables.GetFsmFloat("Stamina").Value / FsmVariables.GlobalVariables.GetFsmFloat("Max Stamina").Value;
     }
 
     public void QuitToMainMenu()
