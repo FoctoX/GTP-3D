@@ -63,14 +63,12 @@ public class LevelSelectorManagerScript : MonoBehaviour
 
     private void LevelButtonOnClick(int levelNumber)
     {
-        Debug.Log(levelNumber);
         SceneManagerScript.levelTransition = "level" + (levelNumber + 1).ToString();
-        SceneManager.LoadScene(SceneManagerScript.levelTransition);
+        SceneManager.LoadScene("Loading");
     }
 
     private void GetCurrentLevelPlayed(int levelNumber)
     {
-        LevelManagerScript.currentPlayedLevel = levelNumber + 1;
-        Debug.Log("Current Level Now: " + LevelManagerScript.currentPlayedLevel);
+        SceneManagerScript.currentLevelPlayed = levelNumber + 1;
     }
 }

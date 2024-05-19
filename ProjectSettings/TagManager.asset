@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Virtual Camera
   - Game Manager
+  - Axe
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - 
+  - Wall
   - 
   - 
   - 
